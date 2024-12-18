@@ -2,11 +2,21 @@
 
 .App {
   text-align: center;
-} 
+}
 
 .navbar {
   height: 4rem;
   background: radial-gradient(circle, #F2A549, #f3de80);
+  z-index: 1050;
+}
+.navbar-toggler[aria-expanded="true"] + .collapse {
+  background-color: #F2A549; /* Dark semi-transparent background */
+  border-radius: 5px;
+  z-index: 0; /* Optional rounded corners */
+}
+
+.navbar-toggler {
+  background-color: #F2A549 !important;
 }
 
 .custom-nav-link {
@@ -28,8 +38,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
   background: linear-gradient(60deg, #021a2e 48%, #F2A549 49%);
+}
+
+@media (max-width: 1160px) {
+  .hero-section {
+    background-color: #021a2e; /* Set background to solid #021a2e */
+    background: #021a2e; /* Override any gradients */
+  }
 }
 
 .heroname {
@@ -67,6 +83,32 @@
   font-weight: bolder;
   text-shadow: 1px 1px 3px #ffffff;
   color: #F2A549;
+  white-space: nowrap;
+}
+
+@media (max-width: 1050px) {
+  .herocaption span {
+    font-size: 2.2rem; /* Further adjust font size for very small screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .herocaption span {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .herocaption span {
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .herocaption span {
+    font-size: 1rem; /* Further adjust font size for very small screens */
+  }
 }
 
 .herologo {
@@ -84,7 +126,7 @@
 /* Small devices (phones) */
 @media (max-width: 768px) {
   .herologo {
-    display: none; /* Ensure it's hidden for smaller screens */
+    display: none;
   }
 } 
 
@@ -107,6 +149,8 @@
 
 .herobtn {
   box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.2);
+  min-width: 150px; /* Adjust width as needed */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .herobtn:hover {
@@ -116,6 +160,7 @@
 .sectionehead{
   background: radial-gradient(circle, rgb(243, 222, 128), #F2A549);
   padding: 10px 20px;
+  white-space: nowrap;
 }
 
 .card {
@@ -125,6 +170,12 @@
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgb(250, 181, 26);
+}
+
+.card-title{
+  border-width: 2px;
+  border-color: #f2a74c;
+  border-style: solid;
 }
 
 .coursebtn:hover {
@@ -149,7 +200,7 @@
 }
 
 .whyus:hover {
-  box-shadow: 0 0 15px #f2a549, 0 0 30px #f2a549;
+  box-shadow: 0 0 15px #021a2e, 0 0 30px #021a2e;
 }
 
 .footlink {
@@ -168,4 +219,8 @@
 
 .yellow {
   color: #f2a74c;
+}
+
+.coursesbackgound {
+  background: radial-gradient(circle, #083f57, #011d29);
 }
