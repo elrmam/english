@@ -69,7 +69,7 @@ function Aboutus(){
                         <h1 className="darkblue fw-bold mt-5">Comfortable, Equipped Learning Space</h1>
                         <br/>
                         <div className="col-12">
-                            <h1 className="yellow mb-4">ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ</h1>
+                            <h1 className="yellow mb-4">ــــــــــــــــــــــــــــــــــــــــــــ</h1>
                         </div>
                         <p className="fs-4 lighblue darkblue mb-5">
                             At Kernel Academy, we prioritize your comfort and productivity. Our classrooms are equipped with comfortable chairs and practical desks to ensure maximum comfort. The air conditioning runs continuously to keep you cool and focused throughout your learning experience. We also provide projectors to display content clearly and effectively during lessons. The entire space is covered with Wi-Fi, ensuring seamless connectivity. Additionally, we offer laptops that are ready for use at any time .
@@ -77,16 +77,16 @@ function Aboutus(){
                     </div>
                     <div className="row mb-5">
                         <div className="col-lg-3 col-md-6 col-sm-12">
-                            <img src="/academy1.jpg" className="rounded floating" alt="about" style={{ height: "30rem" }} />
+                            <img src="/academy1.jpg" className="rounded floating mb-5" alt="about" style={{ height: "30rem" }} />
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
-                            <img src="/academy2.jpg" className="rounded floating" alt="about" style={{ height: "30rem" }} />
+                            <img src="/academy2.jpg" className="rounded floating mb-5" alt="about" style={{ height: "30rem" }} />
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
-                            <img src="/academy3.jpg" className="rounded floating" alt="about" style={{ height: "30rem" }} />
+                            <img src="/academy3.jpg" className="rounded floating mb-5" alt="about" style={{ height: "30rem" }} />
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
-                            <img src="/academy4.jpg" className="rounded floating" alt="about" style={{ height: "30rem" }} />
+                            <img src="/academy4.jpg" className="rounded floating mb-5" alt="about" style={{ height: "30rem" }} />
                         </div>
                     </div>
                 </div>
