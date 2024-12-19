@@ -16,11 +16,11 @@ function Footer() {
         </div>
         <div className='col-lg-1 col-md-6 col-sm-12 me-4'>
           <h5 className='text-white mb-5'>Links</h5>
-          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/Aboutus" onClick={() => window.scrollTo(0, 0)}>About us</Link></h6>
+          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/about" onClick={() => window.scrollTo(0, 0)}>About us</Link></h6>
           <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/courses" onClick={() => window.scrollTo(0, 0)}>Courses</Link></h6>
-          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/Events" onClick={() => window.scrollTo(0, 0)}>Events</Link></h6>
-          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/Team" onClick={() => window.scrollTo(0, 0)}>Team</Link></h6>
-          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/Contact" onClick={() => window.scrollTo(0, 0)}>Contact us</Link></h6>
+          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/events" onClick={() => window.scrollTo(0, 0)}>Events</Link></h6>
+          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/team" onClick={() => window.scrollTo(0, 0)}>Team</Link></h6>
+          <h6 className='mb-3'><Link className="footlink" style={{color:"#f2a74c"}} to="/contact" onClick={() => window.scrollTo(0, 0)}>Contact us</Link></h6>
         </div>
         <div className='col-lg-3 col-md-5 col-sm-12 me-4'>
           <h5 className='text-white mb-5'>Get in Touch</h5>

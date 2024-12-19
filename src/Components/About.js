@@ -25,7 +25,7 @@ function About(){
                 <div className="row">
                     <div className="col-lg-1 col-sm-4"></div>
                     <div className="col-lg-3 col-sm-4">
-                    <Link className="footlink" style={{color:"#f2a74c"}} to="/Aboutus" onClick={() => window.scrollTo(0, 0)}>
+                    <Link className="footlink" style={{color:"#f2a74c"}} to="/about" onClick={() => window.scrollTo(0, 0)}>
                         <button type="button" className="btn bg-black text-white mb-5 mt-4 py-2">LEARN MORE</button>
                     </Link>
                     </div>

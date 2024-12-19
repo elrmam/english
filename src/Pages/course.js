@@ -9,7 +9,7 @@ function Course() {
         <div className="container-fluid mb-5 " id='cources'>
             <div className="row text-center coursesbackgound">
                 <div className="col-12 my-5">
-                    <h1 className="yellow fw-bold">Explore Our Courses</h1>
+                    <h1 className="yellow fw-bold">Your Path to Knowledge Starts Here</h1>
                     <br/>
                     <p className="fs-4 text-white darkblue">
                         At our academy, we offer a wide range of courses <br/> to help you build skills in programming, languages, and more.
