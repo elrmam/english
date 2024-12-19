@@ -9,10 +9,13 @@
   background: radial-gradient(circle, #F2A549, #f3de80);
   z-index: 1050;
 }
-.navbar-toggler[aria-expanded="true"] + .collapse {
-  background-color: #F2A549; /* Dark semi-transparent background */
+
+.navbar-toggler[aria-expanded="true"]+.collapse {
+  background-color: #F2A549;
+  /* Dark semi-transparent background */
   border-radius: 5px;
-  z-index: 0; /* Optional rounded corners */
+  z-index: 0;
+  /* Optional rounded corners */
 }
 
 .navbar-toggler {
@@ -20,18 +23,18 @@
 }
 
 .custom-nav-link {
-  color: #021a2e !important; 
-  transition: color 0.3s ease, transform 0.3s ease; 
+  color: #021a2e !important;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .custom-nav-link:hover {
-  color: #0f5b7b !important; 
-  transform: scale(1.2); 
-  text-decoration: none; 
+  color: #0f5b7b !important;
+  transform: scale(1.2);
+  text-decoration: none;
 }
 
 .hero-section {
-  height: 100vh; 
+  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -43,8 +46,10 @@
 
 @media (max-width: 1160px) {
   .hero-section {
-    background-color: #021a2e; /* Set background to solid #021a2e */
-    background: #021a2e; /* Override any gradients */
+    background-color: #021a2e;
+    /* Set background to solid #021a2e */
+    background: #021a2e;
+    /* Override any gradients */
   }
 }
 
@@ -58,22 +63,27 @@
 
 @media (max-width: 992px) {
   .heroname {
-    font-size: 5rem; /* Reduce font size for tablets */
+    font-size: 5rem;
+    /* Reduce font size for tablets */
   }
 }
 
 @media (max-width: 768px) {
   .heroname {
-    font-size: 4rem; /* Reduce font size for phones */
-    margin-top: 2rem; /* Add spacing to avoid overlap */
+    font-size: 4rem;
+    /* Reduce font size for phones */
+    margin-top: 2rem;
+    /* Add spacing to avoid overlap */
   }
 }
 
 /* Extra small devices (very small phones) */
 @media (max-width: 576px) {
   .heroname {
-    font-size: 3rem; /* Smallest font size for very small screens */
-    margin-top: 3rem; /* Increase spacing for very small screens */
+    font-size: 3rem;
+    /* Smallest font size for very small screens */
+    margin-top: 3rem;
+    /* Increase spacing for very small screens */
   }
 }
 
@@ -88,26 +98,30 @@
 
 @media (max-width: 1050px) {
   .herocaption span {
-    font-size: 2.2rem; /* Further adjust font size for very small screens */
+    font-size: 2.2rem;
+    /* Further adjust font size for very small screens */
   }
 }
 
 @media (max-width: 900px) {
   .herocaption span {
-    font-size: 2rem; /* Adjust the font size for smaller screens */
+    font-size: 2rem;
+    /* Adjust the font size for smaller screens */
   }
 }
 
 @media (max-width: 768px) {
   .herocaption span {
-    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    font-size: 1.5rem;
+    /* Adjust the font size for smaller screens */
   }
 }
 
 /* For screens smaller than 480px */
 @media (max-width: 480px) {
   .herocaption span {
-    font-size: 1rem; /* Further adjust font size for very small screens */
+    font-size: 1rem;
+    /* Further adjust font size for very small screens */
   }
 }
 
@@ -119,7 +133,8 @@
 /* Medium devices (tablets) */
 @media (max-width: 992px) {
   .herologo {
-    display: none; /* Hide image for tablets and smaller devices */
+    display: none;
+    /* Hide image for tablets and smaller devices */
   }
 }
 
@@ -128,36 +143,40 @@
   .herologo {
     display: none;
   }
-} 
+}
 
 @keyframes float {
   0% {
-    transform: translateY(0); 
+    transform: translateY(0);
   }
+
   50% {
-    transform: translateY(-20px); 
+    transform: translateY(-20px);
   }
+
   100% {
     transform: translateY(0);
   }
 }
 
 .float-image {
-  animation: float 3s ease-in-out infinite; 
+  animation: float 3s ease-in-out infinite;
   transition: transform 0.3s ease;
 }
 
 .herobtn {
   box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.2);
-  min-width: 150px; /* Adjust width as needed */
-  white-space: nowrap; /* Prevent text wrapping */
+  min-width: 150px;
+  /* Adjust width as needed */
+  white-space: nowrap;
+  /* Prevent text wrapping */
 }
 
 .herobtn:hover {
   transform: scale(1.05);
 }
 
-.sectionehead{
+.sectionehead {
   background: radial-gradient(circle, rgb(243, 222, 128), #F2A549);
   padding: 10px 20px;
   white-space: nowrap;
@@ -172,7 +191,7 @@
   box-shadow: 0 0 10px rgb(250, 181, 26);
 }
 
-.card-title{
+.card-title {
   border-width: 2px;
   border-color: #f2a74c;
   border-style: solid;
@@ -186,8 +205,9 @@
   box-shadow: 0 0 15px rgb(77, 76, 75);
   background: radial-gradient(circle, #1a7ca7, #0f5b7b);
 }
+
 .whyus {
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
 }
 
@@ -227,12 +247,39 @@
 
 .circular-image {
   border-radius: 50%;
-  width: 200px; /* Adjust the size as needed */
-  height: 200px !important; /* Ensure the width and height are equal for a perfect circle */
+  width: 200px;
+  /* Adjust the size as needed */
+  height: 200px !important;
+  /* Ensure the width and height are equal for a perfect circle */
   background-color: #011d29;
   transition: transform 0.3s ease-in-out;
 }
 
 .circular-image:hover {
   transform: scale(1.1);
+}
+
+/* Floating effect on hover */
+.floating {
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px #0f5b7b;
+}
+
+/* Define the floating animation on hover */
+.floating:hover {
+  animation: float 2s ease-in-out infinite;
+  box-shadow: 0 0 15px #0f5b7b, 0 0 30px #0f5b7b;
+}
+
+/* Define the keyframes for the floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1.05) ;
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05) ; /* Move up */
+  }
+  100% {
+    transform: translateY(0) scale(1.05) ; /* Move back to the original position */
+  }
 }
