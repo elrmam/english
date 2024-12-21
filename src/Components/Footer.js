@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 
 
 function Footer() {
+  const phoneNumber = "+201003123576";
+    const sendMessage = (message) => {
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, "_blank");
+    };    
   return (
     <div className='container-fluid bg-black text-start pt-5'>
       <div className='row mx-2'>
@@ -13,6 +18,7 @@ function Footer() {
           <a href="https://www.facebook.com/kernelacademyegy" target="_blank" rel="noreferrer noopener">
             <img src="/facebook.png" alt="Facebook" height={40} width={40} />
           </a>
+          <img src="/whatsapp.png" onClick={() => sendMessage("")} alt="Facebook" height={32} width={32} />
         </div>
         <div className='col-lg-1 col-md-6 col-sm-12 me-4'>
           <h5 className='text-white mb-5'>Links</h5>
