@@ -16,7 +16,7 @@ function Contact() {
                         <br />Reach out to us, we’re here to help.
                     </p>
                     <br />
-                    <button type="button" onClick={() => sendMessage("")} className="btn py-2 fw-bold mx-2 mb-3 herobtn border border-black" style={{ color: "#021a2e", backgroundColor: "#ffffff" }}>Contact Us &nbsp;<img src="/whatsapp.png" alt="Facebook" height={25} width={25} /></button>
+                    <button type="button" onClick={() => sendMessage("")}  className="btn py-2 fw-bold mx-2 mb-3 herobtn border border-black" style={{ color: "#021a2e", backgroundColor: "#ffffff" }}>Contact Us &nbsp;<img src="/whatsapp.png" alt="Facebook" height={25} width={25} /></button>
                 </div>
             </div>
             <div className="row">
