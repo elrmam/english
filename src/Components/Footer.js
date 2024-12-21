@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function Footer() {
-  const phoneNumber = "+201003123576";
+  const phoneNumber = "+201553576121";
     const sendMessage = (message) => {
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, "_blank");
@@ -14,10 +14,19 @@ function Footer() {
       <div className='row mx-2'>
         <div className='col-lg-4 col-md-5 col-sm-12 ms-3 me-4'>
           <img src="/logo.png" alt="location" height={'60rem'} width={'60rem'} />
-          <p className=' mt-2 footpar' style={{color:"#f2a74c"}}>Kernel Academy is a leading educational institution located in New Damietta.<br/>We specialize in offering diverse courses in programming, languages, and others, taught by expert instructors in a professional and supportive environment.</p>
+          <p className=' mt-2 footpar' style={{color:"#f2a74c"}}>Kernel Academy is a leading educational institution located in New Damietta.<br/>We specialize in offering diverse courses in programming and languages taught by expert instructors in a professional and supportive environment.</p>
           <a href="https://www.facebook.com/kernelacademyegy" target="_blank" rel="noreferrer noopener">
-            <img src="/facebook.png" alt="Facebook" height={40} width={40} />
+            <img src="/facebook.png" alt="Facebook" height={32} width={32} />
           </a>
+          &nbsp;
+          <a href="https://www.instagram.com/kernel_academy_egy" target="_blank" rel="noreferrer noopener">
+            <img src="/insta.png" alt="Facebook" height={32} width={32} />
+          </a>
+          &nbsp;
+          <a href="https://www.tiktok.com/@kernel_academy" target="_blank" rel="noreferrer noopener">
+            <img src="/tiktok.png" alt="Facebook" height={34} width={34} />
+          </a>
+          &nbsp;
           <img src="/whatsapp.png" onClick={() => sendMessage("")} alt="Facebook" height={32} width={32} />
         </div>
         <div className='col-lg-1 col-md-6 col-sm-12 me-4'>

@@ -1,5 +1,5 @@
 function Course() {
-    const phoneNumber = "+201003123576";
+    const phoneNumber = "+201553576121";
     const sendMessage = (message) => {
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, "_blank");
