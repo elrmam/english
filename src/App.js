@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './Pages/Home';
-import Course from './Pages/Course';
+import Course from './Pages/course';
 import Team from './Pages/Team';
 import Aboutus from './Pages/Aboutus';
 import Contact from './Pages/contact';
