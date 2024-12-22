@@ -227,6 +227,10 @@
   text-decoration: none;
 }
 
+.footpar {
+  line-height: 2.1;
+}
+
 
 .darkblue {
   color: #0f3a5d;
