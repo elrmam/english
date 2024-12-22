@@ -72,7 +72,7 @@ function Events() {
                                         </li>
                                     </ul>
                                     <br />
-                                    <button type="button" onClick={() => sendMessage("I want to enroll in the Programming Fundamentals Bootcamp.")} className="btn py-2 fw-bold coursebtn border border-black" style={{ color: "#f2a74c", backgroundColor: "#0f3a5d" }}>Enroll now</button>
+                                    <button type="button" onClick={() => sendMessage("I want to enroll in Python Bootcamp.")} className="btn py-2 fw-bold coursebtn border border-black" style={{ color: "#f2a74c", backgroundColor: "#0f3a5d" }}>Enroll now</button>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ function Events() {
                                         </li>
                                     </ul>
                                     <br />
-                                    <button type="button" onClick={() => sendMessage("I want to enroll in the Programming Fundamentals Bootcamp.")} className="btn py-2 fw-bold coursebtn border border-black" style={{ color: "#f2a74c", backgroundColor: "#0f3a5d" }}>Enroll now</button>
+                                    <button type="button" onClick={() => sendMessage("I want to enroll in Robots and Arduino Workshop.")} className="btn py-2 fw-bold coursebtn border border-black" style={{ color: "#f2a74c", backgroundColor: "#0f3a5d" }}>Enroll now</button>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ function Events() {
                                         </li>
                                     </ul>
                                     <br />
-                                    <button type="button" onClick={() => sendMessage("I want to enroll in the Programming Fundamentals Bootcamp.")} className="btn py-2 fw-bold coursebtn border border-black" style={{ color: "#f2a74c", backgroundColor: "#0f3a5d" }}>Enroll now</button>
+                                    <button type="button" onClick={() => sendMessage("I want to enroll in Scratch Coding for Kids.")} className="btn py-2 fw-bold coursebtn border border-black" style={{ color: "#f2a74c", backgroundColor: "#0f3a5d" }}>Enroll now</button>
                                 </div>
                             </div>
                         </div>
