@@ -1,0 +1,50 @@
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float-image {
+  animation: float 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.info {
+  background: linear-gradient(to bottom,#800080, #b30cb3, #800080); /* Purple shades gradient */
+}
+
+
+
+
+.orange{
+  color: #ffa500;
+}
+
+hr {
+  height: 4px;
+  background-color: #eeff07;
+}
+
+.pink{
+  color: pink;
+}
+
+.welcome {
+  transition: all 0.3s ease;
+
+}
+
+.welcome:hover {
+  transform: scale(1.1); /* Increase size */
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6); /* Shine effect */
+  color: #ffa500; /* Optional: Change color on hover */
+}
